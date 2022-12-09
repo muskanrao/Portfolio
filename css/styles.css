@@ -1,0 +1,261 @@
+body{
+ 
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  text-align: center;
+    
+}
+.first-page{
+  margin: 0px;
+  padding: 100px;
+  background-color: #F6DFEB;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+  padding-bottom: 200px;
+}
+/*
+h1{
+
+  margin-top: 50px;
+    color: black;
+    animation-duration: 8s;
+    animation-name: slidein ;
+    animation-iteration-count: infinite;
+  }
+*/
+
+@keyframes example {
+  
+  0%   {background-color: #FFE1E1;}
+  25%  {background-color: #FFDDD2;}
+  50%  {background-color: #FFE3E1;}
+  100% {background-color: #F2D7D9;}
+}
+h2{
+  margin-left: 30%;
+  font-size: 1.989rem;
+  margin-right: 30%;
+  width: 50%;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.typewriter {
+  font-weight: normal;
+  margin: 0px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+   /* Gives that scrolling effect as the typing happens */
+   /* Adjust as needed */
+  animation: 
+    typing 3.5s ,
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+h2{
+  color: black;
+}
+.profile-image{
+  margin-top: 100px;
+  height: 200px;
+  width: 200px;
+}
+p{
+  text-align-last: center;
+}
+.bold{
+  font-weight: bold;
+}
+.second-page{
+
+  margin-top: 100px;
+ 
+  
+}
+h3{
+  color: black;
+  text-align: center;
+}
+a{
+  color: black;
+}
+.workout-class{
+  
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 50%;
+    margin: 100px  auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    margin-bottom: 50px;
+  
+  
+}
+
+.workout-class:hover{
+  background-color: #F6DFEB;
+}
+.workout{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 0px;
+  width: 25%;
+  float: right;
+  margin-right: 10px;
+ 
+}
+.table-class{
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align:  right;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+.table-class:hover{
+  background-color: #F6DFEB;
+}
+.table{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 25%;
+  float: left;
+  padding-right: 0px;
+  margin-right: 10px;
+}
+.food-class{
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 50%;
+    margin: 100px  auto 100px auto;
+    text-align: right;
+    line-height: 2;
+    margin-bottom: 50px;
+ 
+}
+.food-class:hover{
+  background-color: #F6DFEB;
+}
+.food{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 25%;
+  float: left;
+  padding-right: 0px;
+  margin-right: 10px;
+ 
+}
+
+.Pokemon-class{
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align:  left;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+.Pokemon-class:hover{
+  background-color: #F6DFEB;
+}
+.Pokemon{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 0px;
+  width: 25%;
+  float: right;
+  margin-right: 10px;
+}
+
+.playlist-class{
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 50%;
+    margin: 100px  auto 100px auto;
+    text-align: right;
+    line-height: 2;
+    margin-bottom: 50px;
+ 
+}
+.playlist-class:hover{
+  background-color: #F6DFEB;
+}
+.playlist{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 0px;
+  width: 25%;
+  float: left;
+  margin-right: 10px;
+ 
+}
+
+.music-class{
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align:  left;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+.music-class:hover{
+  background-color: #F6DFEB;
+}
+.music{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 0px;
+  width: 25%;
+  float: right;
+  margin-right: 10px;
+}
+/*
+1.cart
+ */
