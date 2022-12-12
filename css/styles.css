@@ -31,7 +31,7 @@ h1{
   
   0%   {background-color: #FFE1E1;}
   25%  {background-color: #FFDDD2;}
-  50%  {background-color: #FFE3E1;}
+  50%  {background-color: #ffe7e1;}
   100% {background-color: #F2D7D9;}
 }
 h2{
@@ -257,13 +257,66 @@ a{
   margin-right: 10px;
 }
 .third-page{
-  padding-left: 30%;
+  padding-left: 23%;
+  padding-right: 0%;
 
 }
 .skills{
- 
-  width:50%
+  background-color: white;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   width:52%
   
+}
+
+.skill:hover{
+  color: #F6DFEB;
+}
+.last-page{
+  
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+
+  background-color:#ffe7e1 ;
+}
+
+.email{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.likdin{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.github{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.insta{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.email:hover{
+  color: white;
+}
+.likdin:hover{
+  color: ivory;
+}
+.github:hover{
+  color: ivory;
+}
+.insta:hover{
+  color: ivory;
 }
 /*
 1.cart
