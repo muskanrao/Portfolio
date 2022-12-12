@@ -70,11 +70,7 @@ h2{
 h2{
   color: black;
 }
-.profile-image{
-  margin-top: 100px;
-  height: 200px;
-  width: 200px;
-}
+
 p{
   text-align-last: center;
 }
@@ -287,23 +283,23 @@ a{
 }
 
 .email{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   font-weight: bold;
 }
 .likdin{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   font-weight: bold;
 }
 .github{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   font-weight: bold;
 }
 .insta{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   font-weight: bold;
 }
 .email:hover{
