@@ -43,30 +43,55 @@ h2{
   line-height: 1;
   margin-bottom: 50px;
 }
-.typewriter {
-  font-weight: normal;
-  margin: 0px;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid white; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-   /* Gives that scrolling effect as the typing happens */
-   /* Adjust as needed */
-  animation: 
-    typing 3.5s ,
-    blink-caret .75s step-end infinite;
+.typewriter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.waviy {
+  
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  animation: flip 4s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
-}
+
+Resources
 h2{
   color: black;
 }
@@ -91,7 +116,7 @@ a{
   color: black;
 }
 .workout-class{
-  
+  border-radius: 30px;
   padding-left: 40px;
   padding-right: 20px;
   padding-top: 50px;
@@ -121,6 +146,7 @@ a{
  
 }
 .table-class{
+  border-radius: 30px;
   padding-left: 40px;
   padding-right: 20px;
   padding-top: 50px;
@@ -146,6 +172,7 @@ a{
   margin-right: 10px;
 }
 .food-class{
+  border-radius: 30px;
   padding-left: 40px;
   padding-right: 20px;
   padding-top: 50px;
@@ -174,6 +201,7 @@ a{
 }
 
 .Pokemon-class{
+  border-radius: 30px;
   padding-left: 40px;
   padding-right: 20px;
   padding-top: 50px;
@@ -200,6 +228,7 @@ a{
 }
 
 .playlist-class{
+  border-radius: 30px;
   padding-left: 40px;
   padding-right: 20px;
   padding-top: 50px;
@@ -228,6 +257,7 @@ a{
 }
 
 .music-class{
+  border-radius: 30px;
   padding-left: 40px;
   padding-right: 20px;
   padding-top: 50px;
@@ -258,6 +288,7 @@ a{
 
 }
 .skills{
+  border-radius: 10px;
   background-color: white;
   padding: 20px;
   padding-left: 100px;
